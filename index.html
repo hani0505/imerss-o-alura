@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotfy imerssão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,600;0,9..40,700;1,9..40,700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/style.css">
-    <link rel="stylesheet" href="src/styles/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 
 </head>
 <body>
     <div class="sidebar">
         <nav class="sidebar_navi">
-            <div>
+            <div class="logo">
                 <a href="">
                     <img src="src/assets/icon/logo-spotify.png" alt="logo do Spotfy">
                 </a>
-                <div>
+            </div>
+            
                     <ul>
                         <li>
                         <a href="">
@@ -31,9 +41,42 @@
                         </a>
                         </li>
                     </ul>
-                </div>
-            </div>
+               
+            
         </nav>
+
+        <div class="library">
+            <div class="library_content">
+                <button class="library_buttom">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section_playlist">
+                <div class="section_playlist_content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ensinar</span>
+                    <button class="section-playlist_buttom">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="langueges">
+                <button class="langueges_buttom">
+                    <span class="fa fa-globe"></span>
+                    <span>Portugês do Brasil</span>
+                </button>
+            </div>
+
+        </div>
+        
     </div>
     
 </body>
